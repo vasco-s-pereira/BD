@@ -1,0 +1,18 @@
+meta {
+  name: cancel
+  type: http
+  seq: 6
+}
+
+post {
+  url: http://127.0.0.1:8080/a/Clinica%20Lisboa%20Centro/cancelar//?paciente=10000000001&medico=100000001&data=2025-04-17&hora=9:30
+  body: none
+  auth: none
+}
+
+query {
+  paciente: 10000000001
+  medico: 100000001
+  data: 2025-04-17
+  hora: 9:30
+}
